@@ -58,6 +58,10 @@ Onto this:
 
 # HOW TO USE
 Load every script onto your R environment with: 
-´source("kunukutu.R")´
+´´´
+source("kunukutu.R")
+´´´
 Which loads all specific manipulation scripts. Then choose what kind of data you need,  as "quimica", "emo", "hormones",and run:
-´extract_quimica("excel_file.xlsx")´
+´´´
+extract_quimica("excel_file.xlsx")
+´´´
