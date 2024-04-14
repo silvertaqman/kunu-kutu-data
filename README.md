@@ -20,7 +20,7 @@ Biological measurements also includes:
 - Coproparasitarium
 
 Here, there is a set of scripts for extraction of this valuable information and its conversion from a print-ready state in Excel Spreadsheets to a fully-relational format.
-# Explanation
+# EXAMPLE
 These scripts converts a set of excel tables from this:
 |                        |                |           |        |                                       |                      |       |
 |------------------------|----------------|-----------|--------|---------------------------------------|----------------------|-------|
@@ -55,3 +55,9 @@ Onto this:
 |------------|------------|-----------------|------------|----------|-----------------|
 | RUMI ÑAHUI | 14/04/2024 | HOSPITALIZACION | CREATININA | 0.74     | PHD. GUIVER MAC |
 | RUMI ÑAHUI | 14/04/2024 | HOSPITALIZACION | TGP        | 24.7     | PHD. GUIVER MAC |
+
+# HOW TO USE
+Load every script onto your R environment with: 
+´source("kunukutu.R")´
+Which loads all specific manipulation scripts. Then choose what kind of data you need,  as "quimica", "emo", "hormones",and run:
+´extract_quimica("excel_file.xlsx")´
