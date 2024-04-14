@@ -51,7 +51,7 @@ These scripts converts a set of excel tables from this:
 
 Onto this:
 
-| Nombre     | Fecha      | Tipo            | Prueba     | Medicion |
-|------------|------------|-----------------|------------|----------|
-| RUMI ÑAHUI | 14/04/2024 | HOSPITALIZACION | CREATININA | 0.74     |
-| RUMI ÑAHUI | 14/04/2024 | HOSPITALIZACION | TGP        | 24.7     |
+| Nombre     | Fecha      | Tipo            | Prueba     | Medicion | Tech            |
+|------------|------------|-----------------|------------|----------|-----------------|
+| RUMI ÑAHUI | 14/04/2024 | HOSPITALIZACION | CREATININA | 0.74     | PHD. GUIVER MAC |
+| RUMI ÑAHUI | 14/04/2024 | HOSPITALIZACION | TGP        | 24.7     | PHD. GUIVER MAC |
